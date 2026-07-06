@@ -374,6 +374,7 @@ tr.row-ours td.best{ color:var(--hot-ink); }
 .footer .ftlinks{ display:flex; gap:1.2rem; }
 .footer .ftlinks a{ font-family:var(--ff-mono); font-size:.74rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); text-decoration:none; }
 .footer .ftlinks a:hover{ color:var(--ink); }
+.footer .patent{ margin:1.1rem 0 0; font-family:var(--ff-mono); font-size:.76rem; font-weight:500; color:var(--hot-ink); letter-spacing:.02em; }
 
 /* ---------- entrance animation (JS-gated; full content shows without JS) ---------- */
 .js .reveal{ opacity:0; transform:translateY(18px); transition:opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
@@ -936,11 +937,11 @@ a:focus-visible, button:focus-visible{ outline:2px solid var(--cold); outline-of
         <span class="lbl">BibTeX</span>
         <button class="copy-btn" id="copyBtn" type="button">Copy</button>
       </div>
-<pre id="bibtex">@misc<span class="k">{</span>amp2026,
-  title  = <span class="k">{</span>Action Map Policy: Learning 3D Closed-loop Manipulation via Pixel Classification<span class="k">}</span>,
-  author = <span class="k">{</span>Author, First and Author, Second and Author, Third and Author, Senior<span class="k">}</span>,
-  year   = <span class="k">{</span>2026<span class="k">}</span>,
-  note   = <span class="k">{</span>Preprint<span class="k">}</span>
+<pre id="bibtex">@article<span class="k">{</span>huang2026action,
+  title=<span class="k">{</span>Action Map Policy: Learning 3D Closed-loop Manipulation via Pixel Classification<span class="k">}</span>,
+  author=<span class="k">{</span>Huang, Haojie and Ye, Zhang and Zhao, Linfeng and Hu, Boce and Jia, Mingxi and Qi, Yu and Agha, Ahmed and Wang, Dian and Platt, Robert and Walters, Robin<span class="k">}</span>,
+  journal=<span class="k">{</span>arXiv preprint<span class="k">}</span>,
+  year=<span class="k">{</span>2026<span class="k">}</span>
 <span class="k">}</span></pre>
     </div>
   </div>
@@ -958,6 +959,9 @@ a:focus-visible, button:focus-visible{ outline:2px solid var(--cold); outline-of
       <a href="#">Code</a>
       <a href="#">Video</a>
     </nav>
+  </div>
+  <div class="wrap">
+    <p class="patent">Patent Notice: Certain aspects of this work are patent pending.</p>
   </div>
 </footer>
 
